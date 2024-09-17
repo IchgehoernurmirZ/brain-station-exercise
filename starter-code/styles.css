@@ -135,6 +135,36 @@ hr {
   font-size: 26px;
 }
 
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px; 
+  padding: 100px;
+}
+
+.card {
+  width: 150px;
+  height: auto;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 16px;
+  color: #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  background-color: rgba(0, 0, 0, 0.05); 
+}
+
 .pricing {
   padding: 0 5%;
   background: #E7E6E5;
