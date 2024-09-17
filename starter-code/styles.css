@@ -14,6 +14,11 @@ ul, ol, li {
   font-size: 19px;
 }
 
+hr {
+  height: 2px;
+  background: #000000;
+}
+
 .nav a, .nav-footer a, .nav p, .nav-footer p {
   font-size: 12px;
 }
@@ -167,6 +172,16 @@ ul, ol, li {
 .pricing__card-bottom {
   font-size: 19px;
 }
+
+.pricing__card-bottom p {
+  margin-bottom: 5px;
+}
+
+.pricing__card-bottom ol {
+  margin-top: 5px;
+}
+
+
 .pricing__card-bottom p, .pricing__card-bottom ol, .pricing__card-bottom ul li {
   font-size: 19px;
 }
